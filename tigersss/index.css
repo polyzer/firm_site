@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 
-.qwer{
+.direction_list{
     width: 30%;
     max-width: 60%;
     background-color: cornsilk;
@@ -18,7 +18,7 @@ body{
     margin-left: 1%;
 }
 
-.qwer1{
+.proection_list{
     width: 30%;
     max-width: 60%;
     background: cornsilk no-repeat;
@@ -29,7 +29,7 @@ body{
     margin-left: 45%;
 }
 
-.qwer2{
+.contact_list{
     position: relative;
     width: 20%;
     max-width: 50%;
@@ -44,8 +44,15 @@ body{
 
 .main_header{
     font-size: 150px;
-    text-align: left;
     font-family: 'Russo One', sans-serif;
+}
+
+.logohead{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
 }
 
 .article{
@@ -60,7 +67,7 @@ body{
     border-bottom: 3px solid black;
 }
 
-.flex{
+.flexbox{
     display: flex;
     flex-direction: column;
 }
@@ -87,7 +94,6 @@ body{
 }
 
 h1{
-
     background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
     background-size: 1500px;
     -webkit-background-clip: text;
@@ -99,11 +105,14 @@ h1{
     float: left;
 }
 
-.header1{
-        
+.header_text1{
+
 }
 
-.header2{
-    margin-top: -50px;
-    margin-left: 430px;
+.header_text2{
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+.headers{
 }
