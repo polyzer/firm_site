@@ -1,0 +1,72 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url("./images/1.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.qwer{
+    width: 10%;
+    max-width: 30%;
+    background: cornsilk no-repeat;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1vw;
+    padding-left: 1%;
+    margin-left: 1%;
+}
+
+.main_header{
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.article{
+    position: relative;
+    left: -10px;
+    top: 0px;
+    width: 101%;
+    height: 100%;
+    background-color: coral;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 3px solid black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.article1{
+    position: relative;
+    height: 500px;
+    background-color: chartreuse;
+    border-bottom: 3px solid black;
+}
+
+.article2{
+    position: relative;
+    height: 500px;
+    background-color: mediumvioletred;
+    border-bottom: 3px solid black;
+}
+
+.article3{
+    position: relative;
+    height: 500px;
+    background-color: blue;
+    border-bottom: 3px solid black;
+}
+
+.article2 ul{
+    position: relative;
+    left: 45%;
+}
+
+.article3 ul{
+    position: relative;
+    left: 90%;
+}
