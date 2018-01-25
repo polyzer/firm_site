@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 
-.qwer{
+.direction_list{
     width: 30%;
     max-width: 60%;
     background-color: cornsilk;
@@ -18,7 +18,7 @@ body{
     margin-left: 1%;
 }
 
-.qwer1{
+.proection_list{
     width: 30%;
     max-width: 60%;
     background: cornsilk no-repeat;
@@ -29,7 +29,7 @@ body{
     margin-left: 45%;
 }
 
-.qwer2{
+.contact_list{
     position: relative;
     width: 20%;
     max-width: 50%;
@@ -67,7 +67,7 @@ body{
     border-bottom: 3px solid black;
 }
 
-.flex{
+.flexbox{
     display: flex;
     flex-direction: column;
 }
@@ -105,11 +105,11 @@ h1{
     float: left;
 }
 
-.header1{
+.header_text1{
 
 }
 
-.header2{
+.header_text2{
     margin-top: -70px;
     margin-left: 100px;
 }
