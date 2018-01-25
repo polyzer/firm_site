@@ -44,8 +44,15 @@ body{
 
 .main_header{
     font-size: 150px;
-    text-align: left;
     font-family: 'Russo One', sans-serif;
+}
+
+.logohead{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
 }
 
 .article{
@@ -87,7 +94,6 @@ body{
 }
 
 h1{
-
     background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
     background-size: 1500px;
     -webkit-background-clip: text;
@@ -100,10 +106,13 @@ h1{
 }
 
 .header1{
-        
+
 }
 
 .header2{
-    margin-top: -50px;
-    margin-left: 430px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+.headers{
 }
