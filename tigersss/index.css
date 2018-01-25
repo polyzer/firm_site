@@ -2,24 +2,49 @@ body{
     position: relative;
     width: 100%;
     height: 600px;
-    background: url("./images/1.jpg") no-repeat center fixed;
+    background: url("./images/123.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
 .qwer{
-    width: 10%;
-    max-width: 30%;
+    width: 30%;
+    max-width: 60%;
+    background-color: cornsilk;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 1px;
+    font-size: 3vw;
+    padding-left: 1%;
+    margin-left: 1%;
+}
+
+.qwer1{
+    width: 30%;
+    max-width: 60%;
+    background: cornsilk no-repeat;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vw;
+    padding-left: 1%;
+    margin-left: 45%;
+}
+
+.qwer2{
+    position: relative;
+    width: 20%;
+    max-width: 50%;
     background: cornsilk no-repeat;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
     font-size: 1vw;
     padding-left: 1%;
-    margin-left: 1%;
+    margin-left: 78%;
+    top: 530px;
 }
 
 .main_header{
     font-size: 150px;
-    text-align: center;
+    text-align: left;
     font-family: 'Russo One', sans-serif;
 }
 
@@ -27,7 +52,7 @@ body{
     position: relative;
     left: -10px;
     top: 0px;
-    width: 101%;
+    width: 100.3%;
     height: 100%;
     background-color: coral;
     padding: 0px 0px 0px 0px;
@@ -42,31 +67,43 @@ body{
 
 .article1{
     position: relative;
-    height: 500px;
+    height: 700px;
     background-color: chartreuse;
     border-bottom: 3px solid black;
 }
 
 .article2{
     position: relative;
-    height: 500px;
+    height: 700px;
     background-color: mediumvioletred;
     border-bottom: 3px solid black;
 }
 
 .article3{
     position: relative;
-    height: 500px;
+    height: 700px;
     background-color: blue;
     border-bottom: 3px solid black;
 }
 
-.article2 ul{
-    position: relative;
-    left: 45%;
+h1{
+
+    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    background-size: 1500px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px black;
 }
 
-.article3 ul{
-    position: relative;
-    left: 90%;
+.logo{
+    float: left;
+}
+
+.header1{
+        
+}
+
+.header2{
+    margin-top: -50px;
+    margin-left: 430px;
 }
