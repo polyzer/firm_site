@@ -1,6 +1,8 @@
 
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
-			 var cont = document.getElementsByClassName('article1');
+			var bg_scene_container = document.createElement( 'div' );
+            bg_scene_container.className = 'textNode bg_scene content';
+            document.getElementById('bg_scene').appendChild(bg_scene_container)
             var container, stats;
 			var camera, scene, renderer, particles, geometry, materials = [], parameters, i, h, color, size;
 			var mouseX = 0, mouseY = 0;
@@ -43,9 +45,10 @@
 				renderer = new THREE.WebGLRenderer();
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth, window.innerHeight );
-				cont[0].appendChild( renderer.domElement );
-                
-				//container.appendChild( renderer.domElement );
+
+                bg_scene_container.appendChild( renderer.domElement );
+				//cont.appendChild( renderer.domElement );
+                //container.appendChild( renderer.domElement );
 				stats = new Stats();
 				container.appendChild( stats.dom );
 				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
