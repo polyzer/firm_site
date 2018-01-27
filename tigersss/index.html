@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +7,24 @@
     <link rel="stylesheet" href="index.css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <base target="_blank">
 </head>
 <body>
+    <script src="libs/three.js"></script>
+    <script src="libs/Detector.js"></script>
+    <script src="libs/stats.min.js"></script>
 
+<div id="bg_scene"></div>
+    <script src="js/bg.js"></script>
+<div class="header_text1">Sky
+</div>
     <h1 class="main_header">
         <div class="logohead">
-
+            <div class="logo">
+                <img src="images/image_logo.png" style="opacity:0.8;filter:alpha(opacity=40)" width="330" height="300"/>
+            </div>
             <div class="header_text">
                 <div class="header_text1">Sky
-                </div>
-                <div class="logo">
-                <img src="images/3.png" style="opacity:0.8;filter:alpha(opacity=40)" width="330" height="300"/>
                 </div>
                 <div class="header_text2">Fox
                 </div>
@@ -35,11 +43,60 @@
         </div>
 
         <div class="article article2">
-            <div class="proection_list">
-                <ul>Проекты:<br><br>
-                    <li>Приложения</li>
-                </ul>
-            </div>
+            <div class="proects">Проекты:<br><br></div>
+                <div class="proection_list">
+                   <div class="ratskiller">
+                       <div class="description">
+                            <a href="https://vk.com/app5169867">
+                                <img src="images/ratskiller.png"  width="90" height="90">
+                            </a>
+                            <div class="description1"><a href="https://vk.com/app5169867">
+                                <p class="name">Игра ВКонтакте<br> "RatsKiller"
+                            </a>
+                                <p class="description2">Обычный кликер. Суть - закликать мышей досмерти,
+                            и заколотить все дыры в полу, пока мыши не снямали весь сыр на уровне.
+                            Со временем сыра становится больше.</p>
+                            </p>
+                            </div>
+                        </div>
+                   </div>
+
+                    <div class="visavis">
+                        <div class="description">
+                            <a href="https://vk.com/app5942713">
+                                <img src="images/visavis.png"  width="90" height="90">
+                            </a>
+                            <div class="description1"><a href="https://vk.com/app5942713">
+                                <p class="name">Игра ВКонтакте<br> "Vis-A-Vis"
+                            </a>
+                                <p class="description2">Vis-a-Vis это 3D-видеочат с элементами игры,
+                                    ориентированный на поиск друзей и знакомых.
+                                    Пользователи разбиваются на комнаты, в которых они ищут друг друга,
+                                    проходя совместно мини-игры, набирая очки, выполняя задания.
+                                    Задача пользователей перемещаться между комнатами.
+                                    Данное приложение отличает новизна идеи, перенос идей обычного видеочата
+                                    в трёхмерное пространство.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testtip">
+                        <div class="description">
+                            <a href="https://vk.com/app4766007">
+                                <img src="images/test.jpg"  width="90" height="90">
+                            </a>
+                            <div class="description1"><a href="https://vk.com/app4766007">
+                                <p class="name">Приложение ВКонтакте<br> "Тип личности"
+                            </a>
+                                <p class="description2">Тест на тип личности по Джону Кейрси.
+                                    72 вопроса и Вы узнаете, кто Вы на самом деле! (к какому психологическому Вы относитесь)
+                                    Очень популярен в США, его проходят в 11 классе по окончанию учёбы.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="article article3">
             <div class="contact_list">

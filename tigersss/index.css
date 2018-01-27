@@ -1,8 +1,9 @@
+
 body{
     position: relative;
     width: 100%;
     height: 600px;
-    background: url("./images/123.jpg") no-repeat center fixed;
+    background: url("./images/image_bg.jpg") no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden;
 }
@@ -20,14 +21,95 @@ body{
 }
 
 .proection_list{
-    width: 30%;
-    max-width: 60%;
-    background: cornsilk no-repeat;
+}
+
+.ratskiller{
+    margin-left: 0.3%;
+    min-width: 31%;
+    display: inline-block;
+    float: left;
+    word-wrap: break-word;
+    width: 31%;
+    height: auto;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
-    font-size: 3vw;
-    padding-left: 1%;
-    margin-left: 45%;
+    font-size: 5vw;
+    padding-left: 10px;
+    font-size: 1.5vw;
+}
+
+
+.visavis{
+    margin-left: 0.3%;
+    min-width: 31%;
+    display: inline-block;
+    float: left;
+    word-wrap: break-word;
+    width: 31%;
+    height: auto;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 10px;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    font-size: 1.2vw;
+}
+
+.testtip{
+    margin-left: 0.3%;
+    min-width: 31%;
+    display: inline-block;
+    float: left;
+    word-wrap: break-word;
+    width: 31%;
+    height: auto;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 5vw;
+    padding-left: 10px;
+    font-size: 1.5vw;
+}
+
+.proects{
+    min-width: 30%;
+    width: 30%;
+    height: auto;
+    background-size: 100%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 5vw;
+    padding-left: 10px;
+}
+
+.description{
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+}
+
+.description .name{
+     min-width: 10%;
+     width: 100%;
+     word-wrap: break-word;
+     margin-top: 1%;
+     margin-left: 3%;
+     font-family: 'Comfortaa', cursive;
+     font-size: 2vw;
+ }
+
+.name a{
+    text-decoration: none;
+}
+
+.description1{
+    margin-left: 2%;
+}
+
+.description2 {
+    width: 70%;
+    position: relative;
+    word-wrap: break-word;
+    margin-top: -5%;
+    margin-left: 7%;
+    font-family: 'Comfortaa', cursive;
 }
 
 .contact_list{
@@ -62,7 +144,7 @@ body{
     top: 0px;
     width: 100.3%;
     height: 100%;
-    background-color: coral;
+    background-color: rgba(255, 244, 253, 0.9);
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     border-bottom: 3px solid black;
@@ -81,9 +163,11 @@ body{
 }
 
 .article2{
+    min-width: 870px;
     position: relative;
+    width: 100%;
     height: 700px;
-    background-color: mediumvioletred;
+    ba1ckground-color: mediumvioletred;
     border-bottom: 3px solid black;
 }
 
@@ -97,9 +181,19 @@ body{
 h1{
 }
 
-.logo img{
-    display: block;
-    margin: 0 auto;
+.header_text {
+    background: #ffffff;
+    background-size: 100%;
+    font-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px black;
+    overflow: hidden;
+    padding-right: 100px;
+}
+
+.logo{
+    float: left;
 }
 
 .header_text{
@@ -111,6 +205,7 @@ h1{
     -webkit-text-stroke: 5px black;
     overflow: hidden;
     padding-right: 100px;
+
 }
 
 .header_text1{
@@ -119,10 +214,21 @@ h1{
 
 .header_text2{
     margin-top: -70px;
-    margin-left: 700px;
+    margin-left: 100px;
     position: static;
 
 }
 
 .headers{
+}
+
+.bg_scene{
+    z-index :-2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
