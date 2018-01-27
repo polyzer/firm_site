@@ -4,6 +4,7 @@ body{
     height: 600px;
     background: url("./images/123.jpg") no-repeat center fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .direction_list{
@@ -94,15 +95,21 @@ body{
 }
 
 h1{
-    background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
-    background-size: 1500px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 5px black;
 }
 
 .logo{
     float: left;
+}
+
+.header_text{
+    background: #ffffff;
+    background-size: 100%;
+    font-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px black;
+    overflow: hidden;
+    padding-right: 100px;
 }
 
 .header_text1{
