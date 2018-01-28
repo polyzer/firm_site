@@ -2,38 +2,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <head>
+        <link rel="shortcut icon" href="images/5.ico" type="image/x-icon">
+    </head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <title>SkyFox</title>
+
     <link rel="stylesheet" href="index.css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <base target="_blank">
+
 </head>
 <body>
     <script src="libs/three.js"></script>
     <script src="libs/Detector.js"></script>
     <script src="libs/stats.min.js"></script>
 
-<div id="bg_scene"></div>
+    <div id="bg_scene"></div>
     <script src="js/bg.js"></script>
-<div class="header_text1">Sky
-</div>
-    <h1 class="main_header">
-        <div class="logohead">
-            <div class="logo">
-                <img src="images/image_logo.png" style="opacity:0.8;filter:alpha(opacity=40)" width="330" height="300"/>
-            </div>
-            <div class="header_text">
-                <div class="header_text1">Sky
+    <div  class="main_header">
+            <div class="logohead">
+                <div class="logo">
+                    <img src="images/image_logo.png" style="opacity:0.8;filter:alpha(opacity=40)" width="330" height="300"/>
                 </div>
-                <div class="header_text2">Fox
+                <div class="header_text">
+                    <div class="header_text1">Sky
+                    </div>
+                    <div class="header_text2">Fox
+                    </div>
                 </div>
             </div>
         </div>
-    </h1>
 
-    <div class="flexbox">
-        <div class="article article1">
+
+    <div class="my_flex">
+        <div class="main_block block1">
             <div class="direction_list">
                 <ul>Направления:<br><br>
                     <li>3D-Web</li>
@@ -43,63 +51,102 @@
             </div>
         </div>
 
-        <div class="article article2">
-            <div class="proects">Проекты:<br><br></div>
-                <div class="proection_list">
-                   <div class="ratskiller">
-                       <div class="description">
-                            <a href="https://vk.com/app5169867">
-                                <img src="images/ratskiller.png"  width="90" height="90">
-                            </a>
-                            <div class="description1"><a href="https://vk.com/app5169867">
-                                <p class="name">Игра ВКонтакте<br> "RatsKiller"
-                            </a>
-                                <p class="description2">Обычный кликер. Суть - закликать мышей досмерти,
-                            и заколотить все дыры в полу, пока мыши не снямали весь сыр на уровне.
-                            Со временем сыра становится больше.</p>
-                            </p>
+
+
+        <div class="karusel">
+            <div class="proects">Проекты:<br></div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <div class="ratskiller">
+                            <div class="description">
+                                <div><a href="https://vk.com/app5169867">
+                                    <img src="images/ratskiller.png"  width="90" height="90">
+                                </a></div>
+                                <div class="description1"><a href="https://vk.com/app5169867">
+                                    <p class="name_game">Игра ВКонтакте<br> "RatsKiller"
+                                </a>
+                                    <p class="description2">Обычный кликер. Суть - закликать мышей досмерти,
+                                        и заколотить все дыры в полу, пока мыши не снямали весь сыр на уровне.
+                                        Со временем сыра становится больше.</p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                   </div>
 
-                    <div class="visavis">
-                        <div class="description">
-                            <a href="https://vk.com/app5942713">
-                                <img src="images/visavis.png"  width="90" height="90">
-                            </a>
-                            <div class="description1"><a href="https://vk.com/app5942713">
-                                <p class="name">Игра ВКонтакте<br> "Vis-A-Vis"
-                            </a>
-                                <p class="description2">Vis-a-Vis это 3D-видеочат с элементами игры,
-                                    ориентированный на поиск друзей и знакомых.
-                                    Пользователи разбиваются на комнаты, в которых они ищут друг друга,
-                                    проходя совместно мини-игры, набирая очки, выполняя задания.
-                                    Задача пользователей перемещаться между комнатами.
-                                    Данное приложение отличает новизна идеи, перенос идей обычного видеочата
-                                    в трёхмерное пространство.</p>
-                                </p>
+                        <div class="visavis">
+                            <div class="description">
+                                <div><a href="https://vk.com/app5942713">
+                                    <img src="images/visavis.png"  width="90" height="90">
+                                </a></div>
+                                <div class="description1"><a href="https://vk.com/app5942713">
+                                    <p class="name_game">Игра ВКонтакте<br> "Vis-A-Vis"
+                                </a>
+                                    <p class="description2">Vis-a-Vis это 3D-видеочат с элементами игры,
+                                        ориентированный на поиск друзей и знакомых.
+                                        Пользователи разбиваются на комнаты, в которых они ищут друг друга,
+                                        проходя совместно мини-игры, набирая очки, выполняя задания.
+                                        Задача пользователей перемещаться между комнатами.
+                                        Данное приложение отличает новизна идеи, перенос идей обычного видеочата
+                                        в трёхмерное пространство.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testtip">
+                            <div class="description">
+                                <div><a href="https://vk.com/app4766007">
+                                    <img src="images/test.jpg"  width="90" height="90">
+                                </a></div>
+                                <div class="description1"><a href="https://vk.com/app4766007">
+                                    <p class="name_game">Приложение ВКонтакте<br> "Тип личности"
+                                </a>
+                                    <p class="description2">Тест на тип личности по Джону Кейрси.
+                                        72 вопроса и Вы узнаете, кто Вы на самом деле! (к какому психологическому Вы относитесь)
+                                        Очень популярен в США, его проходят в 11 классе по окончанию учёбы.</p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="testtip">
-                        <div class="description">
-                            <a href="https://vk.com/app4766007">
-                                <img src="images/test.jpg"  width="90" height="90">
-                            </a>
-                            <div class="description1"><a href="https://vk.com/app4766007">
-                                <p class="name">Приложение ВКонтакте<br> "Тип личности"
-                            </a>
-                                <p class="description2">Тест на тип личности по Джону Кейрси.
-                                    72 вопроса и Вы узнаете, кто Вы на самом деле! (к какому психологическому Вы относитесь)
-                                    Очень популярен в США, его проходят в 11 классе по окончанию учёбы.</p>
-                                </p>
+                    <div class="carousel-item">
+                        <div class="testtip">
+                            <div class="description">
+                                <div><a href="https://play.google.com/store/apps/details?id=com.mygdx.birdflygame">
+                                    <img src="images/phb.png"  width="90" height="90">
+                                </a></div>
+                                <div class="description1"><a href="https://play.google.com/store/apps/details?id=com.mygdx.birdflygame">
+                                    <p class="name_game">Игра для Android<br> "Phuckin Bird"
+                                </a>
+                                    <p class="description2">Игра для Android. Суть в том, чтобы помочь бедной птичке выбраться из опасного Каньона.
+                                        Всего лишь нужно пролететь 1000000 метров и Вы на свободе!</p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
+                <div><a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a></div>
+            </div>
         </div>
-        <div class="article article3">
+
+        <div class="main_block block3">
             <div class="contact_list">
                 <p> Контакты:
                     <ul>
@@ -110,6 +157,13 @@
             </div>
         </div>
     </div>
+
+    <!-- Подключаем jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Подключаем плагин Popper (необходим для работы компонента Dropdown и др.) -->
+    <script src="js/popper.min.js"></script>
+    <!-- Подключаем Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

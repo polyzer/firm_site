@@ -2,66 +2,61 @@ body{
     position: absolute;
     min-width: 100%;
     width: 100%;
-    min-height: 100%;
-    height: 100%;
+    height: 1000px;
     background: url("./images/image_bg.jpg") no-repeat center fixed;
     overflow-x: hidden;
 }
 
 .direction_list{
     position: relative;
-    width: 30%;
-    max-width: 60%;
-    min-height: 40%;
+    width: 40%;
+    max-width: 50%;
+    min-height: 50%;
     height: 60%;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
     font-size: 3vw;
     padding-left: 1%;
     margin: 0;
-    top: 5%;
 }
 
 .contact_list{
-    position: relative;
     width: 40%;
     max-width: 50%;
-    min-height: 40%;
-    height: 60%;
+    min-height: 100%;
+    height: 100%;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
     font-size: 2vw;
-    padding-left: 1%;
+    padding-left: 2%;
     margin: 0 auto;
-    top: 10%;
 }
 
 .proection_list{
+    padding: inherit;
 }
 
 .ratskiller{
     margin-left: 0.3%;
-    min-width: 31%;
+    min-width: 63%;
     display: inline-block;
     float: left;
     word-wrap: break-word;
-    width: 31%;
+    width: 63%;
     height: auto;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
-    font-size: 5vw;
     padding-left: 10px;
     font-size: 1.5vw;
 }
 
-
 .visavis{
     margin-left: 0.3%;
-    min-width: 31%;
+    min-width: 63%;
     display: inline-block;
     float: left;
     word-wrap: break-word;
-    width: 31%;
+    width: 63%;
     height: auto;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
@@ -71,30 +66,31 @@ body{
     font-size: 1.2vw;
 }
 
+.visa{
+    font-size: 1.5vw;
+    margin-bottom: 8%;
+}
+
 .testtip{
     margin-left: 0.3%;
-    min-width: 31%;
+    min-width: 63%;
     display: inline-block;
     float: left;
     word-wrap: break-word;
-    width: 31%;
+    width: 63%;
     height: auto;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
-    font-size: 5vw;
     padding-left: 10px;
     font-size: 1.5vw;
 }
 
 .proects{
-    min-width: 30%;
-    width: 30%;
-    height: auto;
     background-size: 100%;
     font-family: 'Comfortaa', cursive;
     font-size: 5vw;
     padding-left: 10px;
-    margin-top: 1%;
+    margin-bottom: 10px;
 }
 
 .description{
@@ -112,8 +108,13 @@ body{
      font-size: 2vw;
  }
 
-.name a{
+.name_game a{
     text-decoration: none;
+}
+
+.visavis .name_game{
+    text-decoration: none;
+    font-size: 1.5vw;
 }
 
 .description1{
@@ -130,7 +131,7 @@ body{
 }
 
 .main_header{
-    height: 73%;
+    height: 67%;
     font-size: 150px;
     font-family: 'Russo One', sans-serif;
 }
@@ -140,26 +141,24 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
-    overflow: auto;
 }
 
-.article{
+.main_block{
     position: relative;
-    left: -10px;
-    top: 0px;
-    width: 100.3%;
+    width: 100%;
     height: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
-    border-bottom: 3px solid black;
+    left: 0%;
 }
 
-.flexbox{
+.my_flex{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.article1{
+.block1{
     min-width: 870px;
     position: relative;
     height: 700px;
@@ -167,27 +166,28 @@ body{
     background-color: rgba(255, 158, 5, 0.9);
 }
 
-.article2{
+.block2{
     min-width: 870px;
     position: relative;
-    width: 100%;
     height: 700px;
     background-color: rgba(255, 244, 253, 0.9);
     border-bottom: 3px solid black;
 }
 
-.article3{
-    min-width: 870px;
+.block3{
     position: relative;
+    display: flex;
+    min-width: 870px;
     height: 200px;
     background-color: rgba(124, 122, 255, 0.9);
     border-bottom: 3px solid black;
 }
 
 .header_text {
+    height: 20%;
+    max-height: 20%;
     background: #ffffff;
     background-size: 100%;
-    font-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 5px black;
@@ -197,32 +197,16 @@ body{
 
 .logo{
     float: left;
-}
-
-.header_text{
-    background: #ffffff;
-    background-size: 100%;
-    font-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 5px black;
     overflow: hidden;
-    padding-right: 100px;
-
 }
 
 .header_text1{
-    width: 30%;
+    margin-top: 35%;
 }
 
 .header_text2{
-    margin-top: -70px;
-    margin-left: 100px;
-    position: static;
-
-}
-
-.headers{
+    margin-top: -31.7%;
+    margin-left: 101px;
 }
 
 .bg_scene{
@@ -234,4 +218,77 @@ body{
     height: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+}
+
+.karusel{
+     min-width: 870px;
+     position: relative;
+     height: 700px;
+     background-color: rgba(255, 244, 253, 0.9);
+     border-bottom: 3px solid black;
+}
+
+#carousel-example-generic{
+    height: 700px;
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 700px;
+    width: 100%;
+}
+
+.carousel-item{
+    height: 700px;
+    width: 53%;
+}
+
+.carousel-indicators{
+    top: 80%;
+}
+
+.carousel-indicators li{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel-control-prev{
+    height: 300px;
+    top: 20%;
+    left: -3%;
+}
+
+.carousel-control-prev-icon{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:transparent no-repeat center center;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+.carousel-control-prev-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.carousel-control-next{
+    height: 300px;
+    top: 20%;
+    right: -3%;
+}
+
+.carousel-control-next-icon{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:transparent no-repeat center center;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+}
+
+.carousel-control-next-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
